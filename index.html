@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suba S | CS Student & Python Developer</title>
+  <meta name="description" content="Portfolio of Suba S – B.Sc Computer Science student, Python Developer, and AI Enthusiast from Tamil Nadu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-ring"></div>
+
+  <!-- Background Particles -->
+  <div class="bg-grid"></div>
+
+  <!-- ─── NAVBAR ─── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">SS<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="home">
+    <div class="hero-noise"></div>
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+    <div class="hero-content reveal">
+      <p class="hero-greeting"><span class="wave">👋</span> Hello, World</p>
+      <h1 class="hero-name">Hi, I'm <span class="name-accent">Suba S</span></h1>
+      <div class="hero-role">
+        <span class="role-prefix">I'm a </span>
+        <span class="typed" id="typed"></span><span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-desc">
+        Motivated B.Sc Computer Science student with expertise in Python, SQL, C Programming, and Microsoft Office tools. Passionate about software development, artificial intelligence, and continuous learning.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary"><i class="fas fa-code"></i> View Projects</a>
+        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+        <a href="#" class="btn btn-ghost" download><i class="fas fa-download"></i> Resume</a>
+      </div>
+      <div class="hero-socials">
+        <a href="mailto:subhasubaramani20@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/suba-subramani-5b16a72b8" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="tel:+918925115742" aria-label="Phone"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual reveal-right">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <div class="avatar-initials">SS</div>
+          <div class="avatar-glow"></div>
+        </div>
+        <svg class="ring-svg" viewBox="0 0 200 200"><circle cx="100" cy="100" r="90" fill="none" stroke="url(#ringGrad)" stroke-width="1.5" stroke-dasharray="8 4"/><defs><linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#0ea5e9"/></linearGradient></defs></svg>
+      </div>
+      <div class="floating-card fc1"><i class="fab fa-python"></i><span>Python</span></div>
+      <div class="floating-card fc2"><i class="fas fa-brain"></i><span>AI / ML</span></div>
+      <div class="floating-card fc3"><i class="fas fa-database"></i><span>SQL</span></div>
+    </div>
+    <a href="#about" class="scroll-cue"><span></span>Scroll</a>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label reveal">About Me</div>
+      <h2 class="section-title reveal">Who Am I?</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>I am a <strong>B.Sc Computer Science</strong> student with strong analytical, problem-solving, communication, and teamwork skills. I am eager to begin my career in the IT industry and contribute through innovative solutions and continuous learning.</p>
+          <p>Based in <i class="fas fa-map-marker-alt"></i> <strong>Srivilliputhur, Virudhunagar District, Tamil Nadu</strong>, I'm actively looking for opportunities in software development, AI, and data-driven roles.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-label">Years of Study</span></div>
+            <div class="stat"><span class="stat-num" data-count="8">0</span><span class="stat-label">Core Skills</span></div>
+            <div class="stat"><span class="stat-num" data-count="1">0</span><span class="stat-label">AI Project</span></div>
+            <div class="stat"><span class="stat-num" data-count="1">0</span><span class="stat-label">Internship</span></div>
+          </div>
+        </div>
+        <div class="about-cards reveal-right">
+          <div class="info-card glass"><i class="fas fa-graduation-cap"></i><div><strong>Education</strong><span>B.Sc Computer Science</span></div></div>
+          <div class="info-card glass"><i class="fas fa-map-pin"></i><div><strong>Location</strong><span>Tamil Nadu, India</span></div></div>
+          <div class="info-card glass"><i class="fas fa-language"></i><div><strong>Languages</strong><span>Tamil, English</span></div></div>
+          <div class="info-card glass"><i class="fas fa-heart"></i><div><strong>Interests</strong><span>AI, Data Analysis, Dev</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EDUCATION ─── -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-label reveal">Education</div>
+      <h2 class="section-title reveal">Academic Background</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fas fa-university"></i></div>
+          <div class="timeline-card glass">
+            <div class="tl-header">
+              <span class="tl-badge">2023 – 2026</span>
+              <span class="tl-status current">Current</span>
+            </div>
+            <h3>B.Sc Computer Science</h3>
+            <p class="tl-school"><i class="fas fa-building-columns"></i> Arulmigu Kalasalingam College of Arts and Science</p>
+            <div class="tl-meta">
+              <span><i class="fas fa-chart-bar"></i> CGPA: <strong>70%</strong></span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"><i class="fas fa-school"></i></div>
+          <div class="timeline-card glass">
+            <div class="tl-header">
+              <span class="tl-badge">Completed</span>
+            </div>
+            <h3>Higher Secondary (Computer Science)</h3>
+            <p class="tl-school"><i class="fas fa-building-columns"></i> Thiagaraja Higher Secondary School</p>
+            <div class="tl-meta">
+              <span><i class="fas fa-chart-bar"></i> Percentage: <strong>76%</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-label reveal">Skills</div>
+      <h2 class="section-title reveal">Technical Arsenal</h2>
+      <div class="skills-grid">
+        <div class="skill-card glass reveal" data-delay="0">
+          <div class="skill-icon"><i class="fab fa-python"></i></div>
+          <h4>Python</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+        <div class="skill-card glass reveal" data-delay="1">
+          <div class="skill-icon"><i class="fas fa-code"></i></div>
+          <h4>C Programming</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+          <span class="skill-pct">75%</span>
+        </div>
+        <div class="skill-card glass reveal" data-delay="2">
+          <div class="skill-icon"><i class="fas fa-database"></i></div>
+          <h4>SQL</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+          <span class="skill-pct">70%</span>
+        </div>
+        <div class="skill-card glass reveal" data-delay="3">
+          <div class="skill-icon"><i class="fas fa-file-excel"></i></div>
+          <h4>MS Excel</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="skill-card glass reveal" data-delay="4">
+          <div class="skill-icon"><i class="fas fa-file-word"></i></div>
+          <h4>MS Word</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          <span class="skill-pct">85%</span>
+        </div>
+        <div class="skill-card glass reveal" data-delay="5">
+          <div class="skill-icon"><i class="fas fa-file-powerpoint"></i></div>
+          <h4>MS PowerPoint</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="skill-card glass reveal" data-delay="6">
+          <div class="skill-icon"><i class="fas fa-brain"></i></div>
+          <h4>Deep Learning</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+          <span class="skill-pct">65%</span>
+        </div>
+        <div class="skill-card glass reveal" data-delay="7">
+          <div class="skill-icon"><i class="fas fa-puzzle-piece"></i></div>
+          <h4>Problem Solving</h4>
+          <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          <span class="skill-pct">90%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-label reveal">Projects</div>
+      <h2 class="section-title reveal">My Work</h2>
+      <div class="projects-grid">
+        <div class="project-card glass reveal">
+          <div class="project-preview">
+            <div class="project-mockup">
+              <div class="mockup-bar"><span></span><span></span><span></span></div>
+              <div class="mockup-body">
+                <div class="mockup-img-placeholder">
+                  <i class="fas fa-microscope"></i>
+                  <p>CNN Model</p>
+                </div>
+              </div>
+            </div>
+            <div class="project-overlay">
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-type"><i class="fas fa-robot"></i> AI / Deep Learning</div>
+            <h3>Skin Disease Detection Using CNN</h3>
+            <p>Developed an image-based skin disease detection system using Convolutional Neural Networks (CNN). Applied CNN for image classification and prediction, processed datasets for training and testing, and evaluated model performance and accuracy.</p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>CNN</span>
+              <span>Deep Learning</span>
+              <span>Image Classification</span>
+              <span>TensorFlow</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm btn-primary"><i class="fab fa-github"></i> GitHub</a>
+              <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-eye"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── INTERNSHIP ─── -->
+  <section class="section" id="internship">
+    <div class="container">
+      <div class="section-label reveal">Experience</div>
+      <h2 class="section-title reveal">Internship</h2>
+      <div class="intern-card glass reveal">
+        <div class="intern-header">
+          <div class="intern-logo"><i class="fas fa-bullhorn"></i></div>
+          <div class="intern-meta">
+            <h3>Digital Marketing Intern</h3>
+            <p class="intern-company"><i class="fas fa-building"></i> Codingrim Technology Solutions Pvt. Ltd.</p>
+            <span class="intern-period"><i class="fas fa-calendar-alt"></i> May 2025 – June 2025</span>
+          </div>
+          <span class="intern-badge">Internship</span>
+        </div>
+        <ul class="intern-duties">
+          <li><i class="fas fa-check-circle"></i> Assisted in planning and executing digital marketing campaigns</li>
+          <li><i class="fas fa-check-circle"></i> Supported social media promotion and brand visibility activities</li>
+          <li><i class="fas fa-check-circle"></i> Managed content creation and scheduling activities</li>
+          <li><i class="fas fa-check-circle"></i> Monitored campaign performance and tracked engagement metrics</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── STRENGTHS ─── -->
+  <section class="section section-alt" id="strengths">
+    <div class="container">
+      <div class="section-label reveal">Strengths</div>
+      <h2 class="section-title reveal">What I Bring</h2>
+      <div class="strengths-grid">
+        <div class="strength-card glass reveal"><i class="fas fa-bolt"></i><h4>Quick Learner</h4><p>Rapidly adapt to new tools, technologies, and concepts.</p></div>
+        <div class="strength-card glass reveal"><i class="fas fa-magnifying-glass-chart"></i><h4>Analytical Thinking</h4><p>Break down complex problems into structured, solvable parts.</p></div>
+        <div class="strength-card glass reveal"><i class="fas fa-users"></i><h4>Team Collaboration</h4><p>Work effectively with peers towards shared goals.</p></div>
+        <div class="strength-card glass reveal"><i class="fas fa-comments"></i><h4>Communication</h4><p>Clearly articulate ideas both verbally and in writing.</p></div>
+        <div class="strength-card glass reveal"><i class="fas fa-clock"></i><h4>Time Management</h4><p>Prioritize tasks efficiently to meet deadlines consistently.</p></div>
+        <div class="strength-card glass reveal"><i class="fas fa-shuffle"></i><h4>Adaptability</h4><p>Thrive in changing environments and embrace new challenges.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── LANGUAGES & INTERESTS ─── -->
+  <section class="section" id="extras">
+    <div class="container">
+      <div class="extras-grid">
+        <div class="extra-block reveal">
+          <div class="section-label">Languages</div>
+          <h2 class="section-title">I Speak</h2>
+          <div class="lang-list">
+            <div class="lang-item glass"><span class="lang-flag">🇮🇳</span><div><strong>Tamil</strong><small>Native</small></div></div>
+            <div class="lang-item glass"><span class="lang-flag">🇬🇧</span><div><strong>English</strong><small>Proficient</small></div></div>
+          </div>
+        </div>
+        <div class="extra-block reveal-right">
+          <div class="section-label">Interests</div>
+          <h2 class="section-title">I Love</h2>
+          <div class="interest-list">
+            <span class="interest-tag"><i class="fas fa-code"></i> Software Development</span>
+            <span class="interest-tag"><i class="fas fa-brain"></i> Artificial Intelligence</span>
+            <span class="interest-tag"><i class="fas fa-chart-pie"></i> Data Analysis</span>
+            <span class="interest-tag"><i class="fas fa-microchip"></i> New Technologies</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-label reveal">Contact</div>
+      <h2 class="section-title reveal">Let's Talk</h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p class="contact-intro">Ready to collaborate or hire? Feel free to reach out and I'll get back to you as soon as possible.</p>
+          <div class="contact-items">
+            <a href="tel:+918925115742" class="contact-item glass">
+              <div class="ci-icon"><i class="fas fa-phone"></i></div>
+              <div><strong>Phone</strong><span>+91 8925115742</span></div>
+            </a>
+            <a href="mailto:subhasubaramani20@gmail.com" class="contact-item glass">
+              <div class="ci-icon"><i class="fas fa-envelope"></i></div>
+              <div><strong>Email</strong><span>subhasubaramani20@gmail.com</span></div>
+            </a>
+            <a href="https://linkedin.com/in/suba-subramani-5b16a72b8" target="_blank" class="contact-item glass">
+              <div class="ci-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div><strong>LinkedIn</strong><span>suba-subramani-5b16a72b8</span></div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form glass reveal-right" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Suba S" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-success" id="formSuccess"><i class="fas fa-check-circle"></i> Message sent! I'll reply soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">SS<span class="dot">.</span></div>
+      <p>© 2026 Suba S. All Rights Reserved.</p>
+      <div class="footer-socials">
+        <a href="mailto:subhasubaramani20@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://linkedin.com/in/suba-subramani-5b16a72b8" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="tel:+918925115742"><i class="fas fa-phone"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-top" id="backTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
